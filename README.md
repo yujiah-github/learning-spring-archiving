@@ -5,3 +5,4 @@
 #### [210821.](https://github.com/yujiah-github/learning-spring-archiving/tree/main/servlet/src/main/java/hello/servlet/basic/domain/member) Learn Servlet(1) - Write Member & MemberRepository sources
 #### [210822.](https://github.com/yujiah-github/learning-spring-archiving/tree/main/servlet/src/main/webapp/jsp) Learn Servlet(2) & Add JSP sourcesfiles
 #### [210823.](https://github.com/yujiah-github/learning-spring-archiving/tree/main/servlet/src/main/java/hello/servlet/web/servletmvc) Learn MVC patterns & ADD MVC patterns sourcesfiles
+#### [210826.](https://github.com/yujiah-github/learning-spring-archiving/tree/main/hello/src/main/java/com/example/hello) Review spring basic & Add sourcesfiles
