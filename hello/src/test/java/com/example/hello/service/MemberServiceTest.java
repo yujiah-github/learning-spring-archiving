@@ -1,23 +1,20 @@
 package com.example.hello.service;
 
 import com.example.hello.domain.Member;
-import com.example.hello.repository.MemoryMemberRepository;
+import com.example.hello.repository.MemberRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import java.util.List;
-import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class MemberServiceTest {
     MemberService memberService;
-    MemoryMemberRepository memberRepository;
+    MemberRepository memberRepository;
 
     @BeforeEach
     public void beforeEach() {
-        memberRepository = new MemoryMemberRepository()
+        memberRepository = new MemberRepository()
         memberService = new MemberService(memberRepository);
     }
 

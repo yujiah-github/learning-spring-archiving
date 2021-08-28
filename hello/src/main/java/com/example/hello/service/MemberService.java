@@ -1,11 +1,11 @@
 package com.example.hello.service;
-import com.example.hello.repository.MemoryMemberRepository;
+import com.example.hello.repository.MemberRepository;
 import com.example.hello.domain.Member;
 
 import java.util.List;
 import java.util.Optional;
 public class MemberService {
-    private final MemoryMemberRepository memberRepository = new MemoryMemberRepository() {
+    private final MemberRepository memberRepository = new MemberRepository() {
 
         @Override
         public Member save(Member member) {

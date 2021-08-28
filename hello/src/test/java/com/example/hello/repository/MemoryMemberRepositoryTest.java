@@ -8,7 +8,7 @@ import java.util.Optional;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class MemoryMemberRepositoryTest {
-    MemoryMemberRepository repository = new MemoryMemberRepository() {
+    MemberRepository repository = new MemberRepository() {
         @Override
         public Member save(Member member) {
             return null;
