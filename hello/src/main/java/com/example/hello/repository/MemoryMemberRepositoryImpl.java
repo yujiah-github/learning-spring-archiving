@@ -4,7 +4,7 @@ import com.example.hello.domain.Member;
 
 import java.util.*;
 
-public class MemberRepositoryImpl implements MemberRepository {
+public class MemoryMemberRepositoryImpl implements MemoryMemberRepository {
     private static Map<Long, Member> store = new HashMap<>();
     private static long sequence =0L;
 
