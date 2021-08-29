@@ -1,33 +1,20 @@
 package com.example.hello.service;
 import com.example.hello.repository.MemberRepository;
 import com.example.hello.domain.Member;
+import com.example.hello.repository.MemoryMemberRepository;
+
 
 import java.util.List;
 import java.util.Optional;
 public class MemberService {
-    private final MemberRepository memberRepository = new MemberRepository() {
 
-        @Override
-        public Member save(Member member) {
-            return null;
-        }
+    private final MemberRepository memberRepository;
 
-        @Override
-        public Optional<Member> findById(Long id) {
-            return Optional.empty();
-        }
+    public MemberService(MemberRepository memberRepository) {
+        this.memberRepository = memberRepository;
+    }
 
-        @Override
-        public Optional<Member> findByName(String name) {
-            return Optional.empty();
-        }
-
-        @Override
-        public List<Member> findAll() {
-            return null;
-        }
-
-        /**
+    /**
          * 회원가입
          */
         public Long join(Member member) {
@@ -36,7 +23,7 @@ public class MemberService {
             return member.getId();
         }
 
-        private void validateDuplicateMember(Member member) {
+        private Object validateDuplicateMember(Member member) {
             memberRepository.findByName(member.getName())
                     .ifPresent(m ->
 
@@ -47,13 +34,14 @@ public class MemberService {
             /**
              * 전체 회원 조회
              */
-            public List<Member> findMembers () {
+
+            public List<Member> findMembers(){
                 return memberRepository.findAll();
             }
 
-            public Optional<Member> findOne (Long id){
+            public Optional<Member> findOne(Long id){
                 return memberRepository.findById(Long id);
             }
+
         }
     }
-}
