@@ -7,4 +7,4 @@
 #### [210823.](https://github.com/yujiah-github/learning-spring-archiving/tree/main/servlet/src/main/java/hello/servlet/web/servletmvc) Learn MVC patterns & ADD MVC patterns sourcesfiles
 #### [210826.](https://github.com/yujiah-github/learning-spring-archiving/tree/main/hello/src/main/java/com/example/hello) Review spring basic & Add sourcesfiles
 #### [210828.](https://github.com/yujiah-github/learning-spring-archiving/tree/main/hello/src/main/java/com/example/hello) Review spring bean & Dependency Injection & MVC model / Correct MVC patterns sourcesfiles
-#### [210829.](https://github.com/yujiah-github/learning-spring-archiving/tree/main/hello/src/main/java/com/example/hello) Review Connect Database
+#### [210829.](https://github.com/yujiah-github/learning-spring-archiving/tree/main/hello/src/main/java/com/example/hello) Correct Errors & Reviewing Connect Database
