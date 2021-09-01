@@ -148,10 +148,10 @@ public class JdbcMemberRepository implements MemberRepository {
                 close(conn);
             }
         }
-            catch(SQLException e)
-            {
-                e.printStackTrace();
-            }
+        catch(SQLException e)
+        {
+            e.printStackTrace();
+        }
     }
 
     private void close(Connection conn) throws SQLException {

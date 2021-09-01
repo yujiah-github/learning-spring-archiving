@@ -2,10 +2,14 @@ package com.example.hello.service;
 import com.example.hello.repository.MemberRepository;
 import com.example.hello.domain.Member;
 import com.example.hello.repository.MemoryMemberRepository;
+import org.springframework.transaction.annotation.Transactional;
 
 
+import java.sql.SQLException;
 import java.util.List;
 import java.util.Optional;
+
+@Transactional
 public class MemberService {
 
     private final MemberRepository memberRepository;
