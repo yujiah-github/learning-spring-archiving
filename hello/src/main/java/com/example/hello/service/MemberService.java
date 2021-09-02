@@ -12,20 +12,24 @@ import java.util.Optional;
 @Transactional
 public class MemberService {
 
-    private final MemberRepository memberRepository;
+    MemberRepository memberRepository;
+    Member member;
 
-    public MemberService(MemberRepository memberRepository) {
-        this.memberRepository = memberRepository;
-    }
+    long start = System.currentTimeMillis();
 
     /**
          * 회원가입
          */
-        public Long join(Member member) {
+        try {
             validateDuplicateMember(member); //중복 회원 검증
             memberRepository.save(member);
             return member.getId();
-        }
+        } finally{
+            long finish = System.currentTimeMillis();
+            long timeMS = finish - start;
+            System.out.println("join" +timeMS + "ms");
+
+    }
 
         private Object validateDuplicateMember(Member member) {
             memberRepository.findByName(member.getName())
@@ -40,12 +44,17 @@ public class MemberService {
              */
 
             public List<Member> findMembers(){
-                return memberRepository.findAll();
+                long start = System.currentTimeMillis();
+
+                try{
+                    return memberRepository.findAll();
+                } finally {
+                    long finish = System.currentTimeMillis();
+                    long timeMS = finish - start;
+                    System.out.println("findMembers" + timeMS +"MS");
+                }
             }
 
-            public Optional<Member> findOne(Long id){
-                return memberRepository.findById(Long id);
-            }
 
         }
     }
