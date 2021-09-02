@@ -9,3 +9,4 @@
 #### [210828.](https://github.com/yujiah-github/learning-spring-archiving/tree/main/hello/src/main/java/com/example/hello) Review spring bean & Dependency Injection & MVC model / Correct MVC patterns sourcesfiles
 #### [210829.](https://github.com/yujiah-github/learning-spring-archiving/tree/main/hello/src/main/java/com/example/hello) Correct Errors & Reviewing Connect Database
 #### [210901.](https://github.com/yujiah-github/learning-spring-archiving/tree/main/hello/src/main/java/com/example/hello) Reviewing Add Database query and JPA
+#### [210902.](https://github.com/yujiah-github/learning-spring-archiving/tree/main/hello/src/main/java/com/example/hello) Reviewing Add AOP sourcefiles
