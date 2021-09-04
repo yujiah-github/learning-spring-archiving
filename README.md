@@ -10,4 +10,5 @@
 #### [210829.](https://github.com/yujiah-github/learning-spring-archiving/tree/main/hello/src/main/java/com/example/hello) Correct Errors & Reviewing Connect Database
 #### [210901.](https://github.com/yujiah-github/learning-spring-archiving/tree/main/hello/src/main/java/com/example/hello) Reviewing Add Database query and JPA
 #### [210902.](https://github.com/yujiah-github/learning-spring-archiving/tree/main/hello/src/main/java/com/example/hello) Reviewing Add AOP sourcefiles
-#### [210902.](https://github.com/yujiah-github/learning-spring-archiving/tree/main/hello/src/main/java/com/example/hello) Reviewing Spring core skills
+#### [210903.](https://github.com/yujiah-github/learning-spring-archiving/tree/main/core%202) Reviewing Spring core skills and Setting basic code
+#### [210904.](https://github.com/yujiah-github/learning-spring-archiving/tree/main/core%202/src/main/java/hello/core) Reviewing Spring core skills and finish basic code writing
