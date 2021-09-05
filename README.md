@@ -13,4 +13,4 @@
 #### [210903.](https://github.com/yujiah-github/learning-spring-archiving/tree/main/core%202) Reviewing Spring core skills and Setting basic code
 #### [210904.](https://github.com/yujiah-github/learning-spring-archiving/tree/main/core%202/src/main/java/hello/core) Reviewing Spring core skills and finish basic code writing
 #### [210904.](https://github.com/yujiah-github/learning-spring-archiving/tree/main/httpknowledge) Add httpknowledge(1).md file
-#### [210905.](https://github.com/yujiah-github/learning-spring-archiving/tree/main/httpknowledge) Add RateDiscountPrice sourcefile
+#### [210905.](https://github.com/yujiah-github/learning-spring-archiving/blob/main/core%202/src/main/java/hello/core/discount/RateDiscountPolicy.java) Add RateDiscountPrice sourcefile
