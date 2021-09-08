@@ -15,4 +15,4 @@
 #### [210904.](https://github.com/yujiah-github/learning-spring-archiving/tree/main/httpknowledge) Add httpknowledge(1).md file
 #### [210905.](https://github.com/yujiah-github/learning-spring-archiving/blob/main/core%202/src/main/java/hello/core/discount/RateDiscountPolicy.java) Add RateDiscountPrice sourcefile
 #### [210906.](https://github.com/yujiah-github/learning-spring-archiving/blob/main/core%202/src/main/java/hello/core/AppConfig.java) Add AppConfig sourcefiles and Sort by mechanism
-#### [210907.](https://github.com/yujiah-github/learning-spring-archiving/blob/main/core%202/src/main/java/hello/core/AppConfig.java) Add Spring code
+#### [210908.](https://github.com/yujiah-github/learning-spring-archiving/blob/main/core%202/src/main/java/hello/core/AppConfig.java) Add Spring code
