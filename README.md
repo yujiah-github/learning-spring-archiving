@@ -20,3 +20,4 @@
 #### [210910.](https://github.com/yujiah-github/learning-spring-archiving/blob/main/core%202/src/main/java/hello/core/beanfind/ApplicationContextBasicFindTest.java) Add ApplicationContextBasicFindTest sourcefile
 #### [210913.](https://github.com/yujiah-github/learning-spring-archiving/tree/main/core%202/src/test/java/hello/core/beanfind) Add Beanfind Directory
 #### [210913.](https://github.com/yujiah-github/learning-spring-archiving/tree/main/core%202/src/test/java/hello/core/beandefinition) Add beandefinition Directory
+#### [210914.](https://github.com/yujiah-github/learning-spring-archiving/tree/main/core%202/src/test/java/hello/core/singleton) Add Singleton code
