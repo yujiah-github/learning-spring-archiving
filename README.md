@@ -17,6 +17,6 @@
 - [스프링 핵심 원리 - 기본편](https://github.com/yujiah-github/learning-spring-archiving/tree/main/core%202)
 - [모든 개발자를 위한 HTTP 웹 기본 지식](https://github.com/yujiah-github/learning-spring-archiving/tree/main/httpknowledge)
 > 모든 개발자를 위한 HTTP 웹 기본 지식의 경우, 개인 블로그에도 설명글을 게시하였습니다. <br>
-  [바로 가기](https://velog.io/@cil05265/%EC%9B%B9-HTTP-%EC%A7%80%EC%8B%9D-1%ED%8E%B8)
+  [블로그 바로 가기](https://velog.io/@cil05265/%EC%9B%B9-HTTP-%EC%A7%80%EC%8B%9D-1%ED%8E%B8)
 - [스프링 MVC 1편 - 백엔드 웹 개발 핵심 기술](https://github.com/yujiah-github/learning-spring-archiving/tree/main/servlet)
 - 스프링 MVC 2편 - 백엔드 웹 개발 핵심 기술 - 아직 강의를 수강하지 않았습니다.
